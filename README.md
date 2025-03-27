@@ -1,6 +1,8 @@
 # Warmijunta - Ahorro colaborativo
 
-**Ahorra Junta, Crece Seguro**
+**Ahorra Junta, Crece Seguro**  
+
+  *Squad 24  |  Hackathon InnovaBCP - Women Edition by Laboratoria*
 
 ---
 
@@ -57,8 +59,8 @@ WarmiJunta está diseñada para crecer con su comunidad:
 
 ## 🎯 Beneficios para las Usuarias
 
-✅ **Ahorro seguro y flexible**
-✅ **Generación de historial crediticio**
-✅ **Acceso a microcréditos y financiamiento**
-✅ **Comunidad de apoyo y empoderamiento**
+- ✅ **Ahorro seguro y flexible**
+- ✅ **Generación de historial crediticio**
+- ✅ **Acceso a microcréditos y financiamiento**
+- ✅ **Comunidad de apoyo y empoderamiento**
 
