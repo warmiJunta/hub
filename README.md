@@ -18,8 +18,8 @@ WarmiJunta es una **plataforma intuitiva y accesible** que permite:
 **Gamificación** 🎮: Motivación a través de logros, recompensas y niveles.
 
 ##Tecnologias Utilizadas:
-**Frontend**: Angular
-**Backend**: NodeJS
+**Frontend**:  Angular
+**Backend**:  NodeJS
 **Base de Datos**: MongoBD
 
 ##Roadmap de Desarrollo
@@ -29,8 +29,8 @@ WarmiJunta es una **plataforma intuitiva y accesible** que permite:
 **Q3 2025**: Expansión y mejoras en funcionalidades
 **Q4 2025**: Escalabilidad y nuevos partnerships
 
-## Escalabilidad
 
+## Escalabilidad
 WarmiJunta está diseñada para crecer con su comunidad:
 
 **Expansión geográfica**: Adaptación a nuevos mercados y regiones.
@@ -43,3 +43,4 @@ WarmiJunta está diseñada para crecer con su comunidad:
 **Generación de historial crediticio**
 **Acceso a microcréditos y financiamiento**
 **Comunidad de apoyo y empoderamiento**
+
