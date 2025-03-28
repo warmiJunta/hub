@@ -134,3 +134,39 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Node modules
+/node_modules/
+
+# Angular build output
+/dist/
+/out-tsc/
+
+# IDEs y editores comunes
+/.idea/
+/.vscode/
+/*.sublime-workspace
+/*.sublime-project
+
+# Archivos de entorno
+/.env
+/.env.local
+/.env.development
+/.env.production
+/.env.test
+
+# Archivos de registro
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de dependencias
+/package-lock.json
+/yarn.lock
+
+# Archivos de pruebas
+/coverage/
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
