@@ -9,12 +9,12 @@ import { JuntaService } from '../../../services/junta/junta.service';
   styleUrl: './explorer.component.css'
 })
 export class ExplorerComponent {
-  // juntas = [
-  //   { id: 1, montoTotal: 600, aporte: 100, frecuencia: "Mensual", duracion: "6 meses", miembros: "04 / 06", reputacion: 4.8, acceso: "Libre" },
-  //   { id: 2, montoTotal: 800, aporte: 100, frecuencia: "Mensual", duracion: "6 meses", miembros: "04 / 06", reputacion: 4.8, acceso: "Libre" },
-  //   { id: 3, montoTotal: 600, aporte: 100, frecuencia: "Mensual", duracion: "6 meses", miembros: "04 / 06", reputacion: 4.8, acceso: "Libre" }
-  // ];
-  juntas: any = [];
+  juntas = [
+    { id: 1, montoTotal: 600, aporte: 100, frecuencia: "Mensual", duracion: "6 meses", miembros: "04 / 06", reputacion: 4.8, acceso: "Libre" },
+    { id: 2, montoTotal: 800, aporte: 100, frecuencia: "Mensual", duracion: "6 meses", miembros: "04 / 06", reputacion: 4.8, acceso: "Libre" },
+    { id: 3, montoTotal: 600, aporte: 100, frecuencia: "Mensual", duracion: "6 meses", miembros: "04 / 06", reputacion: 4.8, acceso: "Libre" }
+  ];
+  // juntas: any = [];
 
   constructor(private juntaService: JuntaService) { }
 
