@@ -1,1 +1,95 @@
-<p>explorer works!</p>
+<h3 class="p-4 text-gray-900 md:text-xl dark:text-gray-700">Con un <span class="font-medium">aporte mensual, de  S/100</span> selecciona tu junta de ahorro:</h3>
+<section class="flex flex-col space-y-3 max-w-screen-xl mx-auto p-4  md:flex-row justify-center">
+    @for (item of juntas; track item.id) {
+        <div class="bg-white shadow-md rounded-xl p-5 border w-full max-w-sm">
+            <!-- Encabezado -->
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                <span class="text-xl">🎯</span>
+                <h3 class="text-pink-700 font-bold text-lg">S/ {{item.monto_objetivo}}</h3>
+                </div>
+                <button class="bg-pink-800 text-white px-3 py-1.5 rounded-full text-sm flex items-center gap-1 hover:bg-pink-800">
+                Unirse a la junta <img aria-hidden="true" class="w-5 h-5 me-2 pl-1-ms-1" src="https://img.icons8.com/ios-filled/50/FFFFFF/up-right-arrow.png" alt="">
+                </button>
+            </div>
+            
+            <!-- Detalles -->
+            <div class="mt-3 text-gray-700 text-sm space-y-2">
+              <p><strong>Aporte por período: </strong> <span class="font-semibold">S/ {{item.aporte}}</span></p>
+              <p><strong>Frecuencia: </strong> <span class="font-semibold">{{item.frecuencia_aportes}}</span></p>
+              <p><strong>Duración: </strong> <span>{{item.duracion}} {{item.frecuencia_aportes}}</span></p>
+              <p class="flex items-center">
+              <strong>Nro de miembros: </strong>
+              <span class="ml-2 bg-pink-100 text-pink-700 px-2 py-0.5 rounded-full border border-pink-500 text-xs font-medium">04 / {{item.num_participantes}}</span>
+              </p>
+              <p class="flex items-center">
+                <strong>Reputación promedio: </strong>
+                <span class="ml-2">4.8 ⭐</span>
+                </p>
+                <p><strong>Tipo de acceso: </strong> <span>Libre</span></p>
+            </div>
+        </div>
+    }
+</section>
+<section class="flew flex-col">
+  <div class="p-4 mt-4 bg-white shadow-md border rounded-xl max-w-md mx-auto">
+      <!-- Título -->
+      <p class="text-gray-500 text-sm font-medium">Próximamente...</p>
+    
+      <!-- Subtítulo -->
+      <h4 class="text-orange-600 font-bold text-md mt-1">
+        ¿No encuentras tu junta ideal?
+      </h4>
+    
+      <!-- Descripción -->
+      <p class="text-gray-700 text-sm mt-1">
+        ¡Diseña tu propia junta y ahorra a tu ritmo!
+      </p>
+    
+      <!-- Botón deshabilitado -->
+      <button
+        class="flex items-center justify-center w-full mt-4 px-4 py-2 text-gray-400 border border-gray-300 rounded-lg bg-gray-100 cursor-not-allowed"
+        disabled
+      >
+        <svg
+          class="w-5 h-5 mr-2 text-gray-400"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 4v16m8-8H4"
+          ></path>
+        </svg>
+        Crear una junta de ahorro
+      </button>
+  </div>
+    
+  <div class="mt-6 p-4 max-w-md mx-auto">
+      <!-- Título -->
+      <h3 class="text-gray-900 font-semibold text-lg">Te recomendamos</h3>
+    
+      <!-- Tarjeta de recomendación -->
+      <div class="bg-white shadow-md border rounded-xl p-4 mt-2 max-w-md">
+        <!-- Encabezado -->
+        <div class="flex items-center space-x-2">
+          <h4 class="text-orange-600 font-bold text-md">¿Cómo elegir la junta correcta?</h4>
+          <span>✔️</span>
+        </div>
+    
+        <!-- Lista de recomendaciones -->
+        <ul class="list-disc list-inside text-gray-700 mt-2 text-sm space-y-1">
+          <li>Define tu monto de participación según tus ingresos.</li>
+          <li>Verifica la reputación promedio de la junta.</li>
+          <li>Recuerda participar activamente en la junta.</li>
+        </ul>
+      </div>
+  </div>
+  <div class=""></div>
+</section>
+
+ 
