@@ -6,10 +6,10 @@
         <span class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700"> ¿Cuánto quieres aportar a la junta?</span>
         <div class="slidecontainer">
           <div class="flex justify-between text-sm">
-            <span>100</span>
-            <span>300</span>
+            <span>10</span>
+            <span>500</span>
           </div>
-          <input type="range" name="range" min="100" max="300" value={{feeAmount}} class="slider" [(ngModel)]="feeAmount">
+          <input type="range" name="range" min="100" max="250" value={{feeAmount}} class="slider" [(ngModel)]="feeAmount">
           <p class="ml-2 font-semibold text-center text-2xl text-gray-800"> S/ {{feeAmount}} </p>
         </div>
         <!-- <div>
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-        <button type="submit" class="w-full text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800">Buscar juntas de ahorro</button>
+        <button type="button" class="w-full text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800" (click)="goPage(1)">Buscar juntas de ahorro</button>
       </form>
     </section>
   </div>
@@ -41,7 +41,7 @@
           <label for="monto_meta" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700">¿Cuál es tu monto meta de ahorro?</label>
           <input type="text" id="monto_meta" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-600 placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500" placeholder="Ingrese aquí su monto meta" required />
         </div>
-        <button type="submit" class="w-full text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800">Buscar juntas de ahorro</button>
+        <button type="button" class="w-full text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800" (click)="goPage(2)">Buscar juntas de ahorro</button>
       </form>
     </section>
   </div>
