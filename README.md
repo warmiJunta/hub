@@ -64,3 +64,11 @@ WarmiJunta está diseñada para crecer con su comunidad:
 - ✅ **Acceso a microcréditos y financiamiento**
 - ✅ **Comunidad de apoyo y empoderamiento**
 
+Realizado por:
+Silvia Cuizano
+Luz Marina Apaza
+Lucero Condori Rivera
+Apaza Cáceres
+Nicole Tumi
+Rosse Noa
+
