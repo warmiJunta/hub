@@ -66,9 +66,8 @@ WarmiJunta está diseñada para crecer con su comunidad:
 
 Realizado por:
 - Silvia Cuizano
-- Luz Marina Apaza
+- Luz Marina Apaza Cáceres
 - Lucero Condori Rivera
-- Apaza Cáceres
 - Nicole Tumi
 - Rosse Noa
 
